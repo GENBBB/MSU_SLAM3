@@ -68,7 +68,7 @@ git clone https://github.com/GENBBB/MSU_SLAM.git MSU_SLAM
 Убедитесь, что все необходимые зависимости установлены (см. раздел 2). Выполните:
 
 ```
-cd MSU_SLAM
+cd MSU_SLAM3
 chmod +x build.sh
 ./build.sh
 ```
@@ -79,34 +79,7 @@ chmod +x build.sh
 
 ---
 
-# **4. Запуск MSU_SLAM с вашей камерой**
-
-  
-
-Каталог Examples содержит несколько демонстрационных программ и файлов калибровки для запуска ORB-SLAM3 во всех конфигурациях сенсоров с камерами Intel Realsense T265 и D435i.
-
-  
-
-Шаги для использования вашей собственной камеры:
-
-1. Откалибруйте камеру, следуя инструкции в Calibration_Tutorial.pdf, и создайте файл калибровки your_camera.yaml.
-    
-2. Измените один из предоставленных примеров под вашу модель камеры и соберите его.
-    
-3. Подключите камеру к компьютеру через USB3 или соответствующий интерфейс.
-    
-4. Запустите ORB-SLAM3. Например, для камеры D435i команда будет:
-    
-
-```
-./Examples/Stereo-Inertial/stereo_inertial_realsense_D435i Vocabulary/ORBvoc.txt ./Examples/Stereo-Inertial/RealSense_D435i.yaml
-```
-
-  
-
----
-
-# **5. Примеры с EuRoC**
+# **4. Примеры с EuRoC**
 
   
 
@@ -143,7 +116,7 @@ chmod +x build.sh
 
 ---
 
-# **6. Примеры с TUM-VI**
+# **5. Примеры с TUM-VI**
 
   
 
@@ -180,7 +153,7 @@ chmod +x build.sh
 
 ---
 
-# **7. Примеры с ROS**
+# **6. Примеры с ROS**
 
   
 
